@@ -1,0 +1,83 @@
+
+<!DOCTYPE html>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta charset="utf-8">
+
+<head>
+<style>
+
+  body, html {
+ height: 100%;
+  }
+
+
+body
+
+{
+    background-image: url("image/mintgreen.jpg");
+    background-repeat: repeat;
+    background-size: cover;
+}
+
+/* background code taken from w3schools*/
+
+.header {
+    padding: 5px;
+    text-align: left;
+    background: wheat;
+    color: teal;
+    font-size: 20px;
+}
+
+/* header taken from w3schools */
+
+.topnav {
+    overflow: hidden;
+    background-color: tan;
+}
+
+.topnav a {
+    float: left;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+.topnav a:hover {
+    background-color: mediumaquamarine;
+    color: white;
+}
+
+.topnav a.active {
+    background-color: pink;
+    color: white;
+}
+/* nav bar code taken from w3schools */
+
+h1 {
+    text-align: center;
+}
+
+
+
+h3 {
+    text-align: left;
+}
+
+/* text align taken from w3schools*/
+
+</style>
+
+</head>
+
+  <body>
+
+
+/*header code taken from w3schools*/
+
+
+
+
+    </body>
