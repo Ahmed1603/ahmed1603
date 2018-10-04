@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Mini Projects</title>
+    <script src="myScript.js"></script>
+    <link rel="stylesheet" href="Control.css">
+</head>
+<body>
+
+<div class="header">
+    <h1>My Promotional Webpage</h1>
+</div>
+
+<!-- header code taken from w3schools-->
+
+<div class="topnav">
+    <a href="index.html">Home</a>
+    <a href="Hobbies.html">Hobbies</a>
+    <a href="Interests.html">Interests</a>
+    <a href="Family.html">Family</a>
+    <a href="MiniProjects.html">Mini Projects</a>
+</div>
+<!-- navigation bar code copied from w3schools-->
+
+<br><br><br>
+<h1 align="center">Mini Projects!!</h1>
+<br><br><br>
+
+<!--Grade Converter-->
+
+ <form name="project1">
+    <h3 align="center">Grade Converter!</h3>
+    Please type a numeric score to convert: <input type="text" name="num1">
+    <br><br>
+    <button type="button" onclick="document.project1.result.value=assignGrade()">Grade</button>
+    <br><br>
+    <input type="text" readonly="true" name="result" style="border-style: none">
+
+</form>
+
+<br><br>
+<!--Temperature Bug-->
+
+<form name="project2">
+    <h3 align="center">Temperature Bug</h3>
+    <br>
+    Please type a temperature: <input type="text" name="num1">
+    <br><br>
+    <button type="button" onclick="document.project2.result.value=temperatureBug()">Season</button>
+    <br><br>
+    <input type="text" readonly="true" name="result" style="border-style: none">
+    <!--weather image-->
+    <img id="weather" src="image" height="173">
+
+</form>
+<br><br>
+
+<!--Calorie Counter-->
+
+<form name="project3">
+    <h3 align="center">Calorie Counter</h3>
+    <br>
+    Exercises: Running, Jogging, Swimming, Jumping jacks
+    <br><br>
+    Time: 30 minutes, 60 minutes
+    <br><br>
+    Please select an exercise to check how many calories it burns:<input type="text" name="exercise">
+    <br><br>
+    Please select the time:<input type="text" name="time">
+    <br><br>
+    <button type="button" onclick="document.project3.result.value=calorieCounter()">Calories</button>
+    <br><br>
+    <input type="text" readonly="true" name="result" style="border-style: none">
+    <br><br>
+
+</form>
+
+<br><br><br>
+
+</body>
+</html>
