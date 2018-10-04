@@ -41,32 +41,32 @@ function temperatureBug()
 
     if (temp >= 115)
     {
-        img.src = "image/lava.png";
+        img.src = "image/lava.PNG";
         return 'Lava. Lava everywhere.'
     }
     else if (temp >= 75)
     {
-        img.src = "image/summer.png";
+        img.src = "image/summer.PNG";
         return 'Summer';
     }
     else if (temp >= 55)
     {
-        img.src = "image/fall.jpg";
+        img.src = "image/fall.JPG";
         return 'August';
     }
     else if (temp >=50)
     {
-        img.src = "image/spring.jpg";
+        img.src = "image/spring.JPG";
         return 'Spring';
     }
     else if (temp >= 20)
     {
-        img.src = "image/winter.jpg";
+        img.src = "image/winter.JPG";
         return 'Winter';
     }
     else if (temp >= -100)
     {
-        img.src = "image/rip.jpg";
+        img.src = "image/rip.JPG";
         return 'RIP. Good luck.'
     }
 
