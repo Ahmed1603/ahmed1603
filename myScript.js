@@ -76,8 +76,9 @@ function temperatureBug()
 
 function calorieCounter()
 {
-    var exercise = document.project3.exercise.value.toLowerCase();
-    var time = document.project3.time.value.toLowerCase();
+    var exercise = document.getElementById('exercise').value;
+    var time = document.getElementById('time').value;
+
 
 //CALORIES!!!
 
