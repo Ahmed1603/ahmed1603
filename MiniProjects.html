@@ -59,11 +59,11 @@
 <!--Calorie Counter-->
 
 <form name="project3">
-    <h3 align="center">Calorie Counter</h3>
+    <h3>Calorie Counter</h3>
     <br>
 
     <!--exercise options-->
-    Please select an exercise to check how many calories it burns
+    Please select an exercise to check how many calories it burns:
     <select id="exercise">
         <option value="running">Running</option>
         <option value="jogging">Jogging</option>
@@ -73,15 +73,12 @@
 
     <br><br>
 
-    Please select the time
-    <select id="time">
-        <option value="30 minutes">30 Minutes</option>
-        <option value="60 minutes">60 Minutes</option>
-    </select>
+    Please enter the amount of time: <input type="text" name="time">
+    <br><br>
 
     <button type="button" onclick="document.project3.result.value=calorieCounter()">Calories</button>
     <br><br>
-    <input id="result">
+    <input type="text" readonly="true" name="result" style="border-style: none">
 
 
 

@@ -76,45 +76,46 @@ function temperatureBug()
 
 function calorieCounter()
 {
+    var time = Number(document.project3.time.value);
     var exercise = document.getElementById('exercise').value;
-    var time = document.getElementById('time').value;
+
 
 
 //CALORIES!!!
 
-    if (exercise == 'running' && time == '60 minutes')
+    if (exercise == 'running' && time >= 60)
     {
         return '498 calories';
     }
-    else if (exercise == 'running' && time == '30 minutes')
+    else if (exercise == 'running' && time <= 60)
         {
             return '249 calories';
         }
 
 
-    if (exercise == 'jogging' && time == '60 minutes')
+    if (exercise == 'jogging' && time >= 60)
     {
         return '360 calories';
     }
-    else if (exercise == 'jogging' && time == '30 minutes')
+    else if (exercise == 'jogging' && time <= 60)
         {
             return '180 calories';
         }
 
-    if (exercise == 'swimming' && time == '60 minutes')
+    if (exercise == 'swimming' && time >= 60)
     {
         return '200 calories';
     }
-    else if (exercise == 'swimming' && time == '30 minutes')
+    else if (exercise == 'swimming' && time <= 60)
         {
             return '100 calories';
         }
 
-   if (exercise == 'jumping jacks' && time == '60 minutes')
+   if (exercise == 'jumping jacks' && time >= 60)
    {
         return '100 calories';
    }
-   else if (exercise == 'jumping jacks' && time == '30 minutes')
+   else if (exercise == 'jumping jacks' && time <= 60)
         {
             return '50 calories';
         }
