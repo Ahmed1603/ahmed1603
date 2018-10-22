@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Base Converter</title>
+    <script src="myScript.js"></script>
+
+</head>
+<body>
+
+Please type a number in base 10 to convert to binary:
+<form name="toBinary">
+    <input name="input">
+<button type="button" onclick="document.toBinary.result.value=tenToSmall()">To Binary</button>
+    <input name="result" readonly="true">
+</form>
+<br><br>
+
+
+Please type a binary number to convert to base 10:
+<form name="toBase">
+<input name="input">
+    <button type="button" onclick="document.toBase.result.value=smallToTen()">To Base</button>
+    <input name="result" readonly="true">
+</form>
+<br><br><br><br>
+
+<!-- A Level Binary Project-->
+
+<!-- first input-->
+<Form name="chosenOne">
+    Please type a number:
+    <input name="input">
+</Form>
+
+<!--second input-->
+<br>
+<Form name="baseType">
+    Please type the base of the number previously entered:
+    <input name="input">
+</Form>
+<br>
+<button type="button" onclick="document.wantedBase.result.value=tenToSmall()">To Binary</button>
+<!--third input-->
+<br>
+<Form name="wantedBase">
+    New Number:
+    <input name="result" readonly="true">
+</Form>
+
+
+
+</body>
+</html>
