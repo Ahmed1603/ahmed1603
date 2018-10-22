@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Binary Projects</title>
+    <script src="binaryScript.js"></script>
+    <link rel="stylesheet" href="Control.css">
+</head>
+<body>
+
+<div class="header">
+    <h1>My Promotional Webpage</h1>
+</div>
+
+<!-- header code taken from w3schools-->
+
+<div class="topnav">
+    <a href="index.html">Home</a>
+    <a href="Hobbies.html">Hobbies</a>
+    <a href="Interests.html">Interests</a>
+    <a href="Family.html">Family</a>
+    <a href="MiniProjects.html">Mini Projects</a>
+    <a href="Binary.html">Binary Projects</a>
+</div>
+<!-- navigation bar code copied from w3schools-->
+
+<br><br><br>
+<h1 align="center">Some Base Projects</h1>
+<br><br><br>
+
+
+<h3>Base Project 1</h3>
+
+<!--B Level Binary Project-->
+
+Please type a number in base 10 to convert to binary:
+<br><br>
+<form name="toBinary">
+    <input name="input">
+    <button type="button" onclick="document.toBinary.result.value=tenToSmall()">To Binary</button>
+    <input name="result" readonly="true">
+</form>
+<br><br>
+
+
+Please type a binary number to convert to base 10:
+<br><br>
+<form name="toBase">
+    <input name="input">
+    <button type="button" onclick="document.toBase.result.value=smallToTen()">To Base</button>
+    <input name="result" readonly="true">
+</form>
+
+<br><br><br><br>
+
+
+
+<h3>Base Project 2</h3>
+
+<!-- A Level Binary Project-->
+
+<form name="magic">
+    Please choose a number to convert:
+    <input type="text" name="num">
+    <br><br>
+    Type your chosen number's base:
+    <input type="text" name="x">
+    <br><br>
+    Type the base you would like to convert it to:
+    <input type="text" name="y">
+    <br><br>
+    <button type="button" onclick="document.magic.result.value=xToY(Number(document.magic.num.value), Number(document.magic.x.value), Number(document.magic.y.value))">Convert</button>
+    Result: <input type="text" name="result">
+</form>
+
+
+</body>
+</html>
+
+
