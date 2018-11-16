@@ -10,6 +10,12 @@
  height: 100%;
   }
 
+button
+{
+background-color: lightseagreen;
+    color: azure;
+    border-radius: 2px;
+}
 
 body
 
